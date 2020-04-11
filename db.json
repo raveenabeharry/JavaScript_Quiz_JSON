@@ -1,0 +1,243 @@
+{
+  "JavaScript_Quiz": [
+    {
+    "id":1,
+    "question_type": "Multiple Choice",
+    "question": "What does HTML stand for?",
+    "options": {
+      "optiona": "Hyperfuel Text Model Lingo",
+      "optionb": "Hyper Text Markup Language",
+      "optionc": "Hyper Text Modular Language",
+      "optiond": "Hyper Text Mode Language"
+    },
+    "correct_answer": "b. Hyper Text Markup Language",
+    "explanation:": "HTML stands for Hyper Text Markup Language."
+  },
+
+  {
+    "id":2,
+    "question": "What is the correct HTML element for the largest heading?",
+    "correct_answer": "<h1>",
+    "explanation:": "The <h1> tag is the first header tag visible on a page and is usually used for the title of a page or post, hence it having the largest size of all headings."
+  },
+
+  {
+    "id":3,
+    "question_type": "True False",
+    "question": "The correct HTML element for inserting a line break is <br>.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "True",
+    "explanation:": "The <br> element will insert a single line break."
+  },
+
+  {
+    "id":4,
+    "question_type": "Multiple Choice",
+    "question": "Which HTML tag will create an ordered list, where each list item is numbered?",
+    "options": {
+      "optiona": "ul",
+      "optionb": "ol",
+      "optionc": "bl",
+      "optiond": "nl"
+    },
+    "correct_answer": "b. ol",
+    "explanation:": "An ordered list will start with the <ol> tag, where each list item will have a number."
+  },
+
+  {
+    "id":5,
+    "question_type": "Multiple Choice",
+    "question": "Which HTML tag will create an unordered list, where each list item has a bullet point?",
+    "options": {
+      "optiona": "ul",
+      "optionb": "ol",
+      "optionc": "bl",
+      "optiond": "pl"
+    },
+    "correct_answer": "c. ul",
+    "explanation:": "An unordered list starts with the <ul> tag, where each list item will have a bullet point in front of it."
+  },
+
+  {
+    "id":6,
+    "question_type": "True False",
+    "question": "The <p> element defines the document body.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "False",
+    "explanation:": "The <body> element defines the document body."
+  },
+
+  {
+    "id":7,
+    "question_type": "True False",
+    "question": "The <p> element defines a paragraph.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "True",
+    "explanation:": "The <p> element defines a paragraph."
+  },
+
+  {
+    "id":8,
+    "question_type": "Multiple Choice",
+    "question": "What HTML tag defines a hyperlink and allows you to create links in your page?",
+    "options": {
+      "optiona": "anchor tag",
+      "optionb": "input tag",
+      "optionc": "hyperlink tag",
+      "optiond": "link tag"
+    },
+    "correct_answer": "a. anchor tag",
+    "explanation:": "Anchor tags define a hyperlink and allow you to create a link within your webpage."
+  },
+
+  {
+    "id":9,
+    "question_type": "Fill In",
+    "question": "____ are used at the beginning and end of an element.",
+    "correct_answer": "Tags",
+    "explanation:": " HTML elements are represented by tags which are given to elements at their beginning and end."
+  },
+
+  {
+    "id":10,
+    "question_type": "Fill In",
+    "question": "____ are given to elements within a tag for the purpose of defining a property.",
+    "correct_answer": "Attributes",
+    "explanation:": "Attributes are assigned to elements to provide additional information about an element."
+  },
+
+  {
+    "id":11,
+    "question_type": "True False",
+    "question": "Whatever is in between the <html> tags is the content of a web page.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "True",
+    "explanation:": "The <html> tag tells the browser that this is an HTML document, therefore anything in between the tags is considered the content of a web page."
+  },
+
+  {
+    "id":12,
+    "question_type": "True False",
+    "question": "An <iframe> is used to display a web page within a web page.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "True",
+    "explanation:": "The <iframe> tag allows for the display of a web page within a web page."
+  },
+
+  {
+    "id":13,
+    "question_type": "Multiple Choice",
+    "question": "What tag defines a division or section in an HTML document?",
+    "options": {
+      "optiona": "<div>",
+      "optionb": "<br>",
+      "optionc": "<sec>",
+      "optiond": "<sep>"
+    },
+    "correct_answer": "a. <div>",
+    "explanation:": "The <div> tag defines a division in an HTML document."
+  },
+
+  {
+    "id":14,
+    "question_type": "Multiple Choice",
+    "question": "Which tag  defines a standard cell in an HTML table?",
+    "options": {
+      "optiona": "<tr>",
+      "optionb": "<td>",
+      "optionc": "<th>",
+      "optiond": "<tc>"
+    },
+    "correct_answer": "b. <td>",
+    "explanation:": "The <td> tag stands for table data and corresponds to a single cell in a HTML table."
+  },
+
+  {
+    "id":15,
+    "question_type": "Multiple Choice",
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image can’t be displayed?",
+    "options": {
+      "optiona": "src",
+      "optionb": "img",
+      "optionc": "alt",
+      "optiond": "null"
+    },
+    "correct_answer": "c. alt",
+    "explanation:": "The alt attribute specifies an alternate text for an image, if the image cannot be displayed."
+  },
+
+  {
+    "id":16,
+    "question_type": "True False",
+    "question": "The <b> tag specifies bold text.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "True",
+    "explanation:": "The <b> tag will make text bold when used."
+  },
+
+  {
+    "id":17,
+    "question_type": "Multiple Choice",
+    "question": "The Hex color code #000000 corresponds to which color?",
+    "options": {
+      "optiona": "white",
+      "optionb": "black",
+      "optionc": "grey",
+      "optiond": "green"
+    },
+    "correct_answer": "b. black",
+    "explanation:": "The Hex color code #000000 corresponds to the color black."
+  },
+
+  {
+    "id":18,
+    "question_type": "Image",
+    "question": "The Hex color code #FFFFFF corresponds to which of the following colors?",
+    "options": {
+      "optiona": "/Users/raveenab/Documents/HTMLSnow.png",
+      "optionb": "/Users/raveenab/Documents/HTMLWhite.png",
+      "optionc": "/Users/raveenab/Documents/HTMLWhiteSmoke.png",
+    },
+    "correct_answer": "/Users/raveenab/Documents/HTMLWhite.png",
+    "explanation:": "The Hex color code #000000 corresponds to the color black."
+  },
+
+  {
+    "id":19,
+    "question_type": "Fill In",
+    "question": "The ____ tag is used to group inline-elements in a document.",
+    "correct_answer": "<span>",
+    "explanation:": "The <span> tag will group together inline-elements in a document."
+  },
+
+  {
+    "id":20,
+    "question_type": "True False",
+    "question": "The <link> tag defines a set of navigation links.",
+    "options": {
+      "optiona": "True",
+      "optionb": "False"
+    },
+    "correct_answer": "False",
+    "explanation:": "The <nav> tag defines a set of navigation links."
+  }
+ ]
+}
